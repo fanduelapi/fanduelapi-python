@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fanduelapi"
+version = "0.1.0"
+description = "Python client for FanDuel API: FanDuel Sportsbook player props, odds and line movement history as JSON."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "Stunning Couches LLC", email = "support@fanduelapi.com" }]
+keywords = ["fanduel", "odds", "player props", "sports betting", "odds api", "line movement", "sportsbook"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/fanduelapi/fanduelapi-python"
+Issues = "https://github.com/fanduelapi/fanduelapi-python/issues"
+Homepage = "https://fanduelapi.com"
+Documentation = "https://fanduelapi.com/docs"
+Pricing = "https://fanduelapi.com/pricing"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fanduelapi"]
