@@ -1,6 +1,12 @@
-# fanduelapi
+# FanDuel API for Python: fanduelapi
 
-Python client for [FanDuel API](https://fanduelapi.com): FanDuel Sportsbook player props, game lines, alternates, futures, DFS salaries and the history of every line move, as JSON. Standard library only, Python 3.8+.
+The FanDuel API Python client. `pip install fanduelapi` and read FanDuel Sportsbook player props, game lines, alternates, futures, DFS salaries and the history of every line move as JSON. Free key, no card.
+
+[Website](https://fanduelapi.com/?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python) | [Docs](https://fanduelapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python) | [Free API key](https://fanduelapi.com/sign-up?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python) | [Pricing](https://fanduelapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python) | [All SDKs](https://fanduelapi.com/sdks?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python)
+
+Also for fanduelapi.com: [JavaScript: `npm install fanduelapi`](https://github.com/fanduelapi/fanduelapi-js) | [MCP server: `npx -y fanduelapi-mcp`](https://github.com/fanduelapi/fanduelapi-mcp)
+
+Python client for [FanDuel API](https://fanduelapi.com/?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python): FanDuel Sportsbook player props, game lines, alternates, futures, DFS salaries and the history of every line move, as JSON. Standard library only, Python 3.8+.
 
 FanDuel API is an independent data service operated by Stunning Couches LLC. It is not affiliated with, endorsed by or sponsored by FanDuel.
 
@@ -36,7 +42,7 @@ Aaron Nesmith          pra        18.5  over  -104  under  -128
 
 ## With a key
 
-Get a free key (no card) at https://fanduelapi.com/sign-up and export it:
+Get a free key (no card) at https://fanduelapi.com/sign-up?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python and export it:
 
 ```bash
 export FANDUEL_API_KEY="fd_..."
@@ -104,7 +110,7 @@ except FanDuelAPIError as e:
 | `dfs_slates`, `dfs_players(slate_id)`, `injuries`, `coverage` | DFS salaries, injuries, what is tracked |
 | `fanduelapi.sample_props(sport)`, `fanduelapi.credit_costs(path)` | keyless |
 
-Plans, credits and limits: https://fanduelapi.com/pricing and https://fanduelapi.com/credits. Full reference: https://fanduelapi.com/docs and https://fanduelapi.com/openapi.json.
+Plans, credits and limits: https://fanduelapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python and https://fanduelapi.com/credits?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python. Full reference: https://fanduelapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fanduelapi-python and https://fanduelapi.com/openapi.json.
 
 ## Tests
 
